@@ -1,0 +1,32 @@
+export const categoryColors = {
+  'Food': '#FF6B6B',
+  'Transportation': '#4ECDC4',
+  'Entertainment': '#45B7D1',
+  'Utilities': '#96CEB4',
+  'Salary': '#4bc41bff',
+  'Shopping': '#F7DC6F',
+  'Healthcare': '#85C1E9',
+  'Education': '#F8C471',
+  'Investments': '#0000FF',
+  'Freelance': '#FF5733',
+  'Rent': '#C70039',
+  'Travel': '#FF8C00',
+  'Other': '#DDA0DD',
+};
+
+export const defaultCategories = [
+  { id: 'food', name: 'Food', type: 'EXPENSE' },
+  { id: 'transportation', name: 'Transportation', type: 'EXPENSE' },
+  { id: 'entertainment', name: 'Entertainment', type: 'EXPENSE' },
+  { id: 'utilities', name: 'Utilities', type: 'EXPENSE' },
+  { id: 'shopping', name: 'Shopping', type: 'EXPENSE' },
+  { id: 'healthcare', name: 'Healthcare', type: 'EXPENSE' },
+  { id: 'education', name: 'Education', type: 'EXPENSE' },
+  { id: 'rent', name: 'Rent', type: 'EXPENSE' },
+  { id: 'travel', name: 'Travel', type: 'EXPENSE' },
+  { id: 'other-expense', name: 'Other', type: 'EXPENSE' },
+  { id: 'salary', name: 'Salary', type: 'INCOME' },
+  { id: 'freelance', name: 'Freelance', type: 'INCOME' },
+  { id: 'investments', name: 'Investments', type: 'INCOME' },
+  { id: 'other-income', name: 'Other', type: 'INCOME' },
+];
