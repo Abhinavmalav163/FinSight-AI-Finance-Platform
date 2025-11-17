@@ -124,7 +124,7 @@ const CreateAccountDrawer = ({children, onSuccess}) => {
                 <SelectTrigger id="type" className="w-full bg-white" suppressHydrationWarning>
                   <SelectValue placeholder="Select account type" />
                 </SelectTrigger>
-                <SelectContent>
+                <SelectContent className="bg-black">
                   <SelectItem value="CURRENT" className="bg-black text-white">Current Account</SelectItem>
                   <SelectItem value="SAVINGS" className="bg-black text-white">Savings Account</SelectItem>
                 </SelectContent>
