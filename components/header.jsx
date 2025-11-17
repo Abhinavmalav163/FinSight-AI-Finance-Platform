@@ -48,7 +48,7 @@ const Header = () => {
 
 
             <SignedOut>
-                <SignInButton forceRedirectUrl="/dashboard">
+                <SignInButton>
                     <Button variant="outline" className="flex items-center gap-2 bg-black text-white hover:bg-white hover:text-black">Login</Button>
                 </SignInButton>
             </SignedOut>
